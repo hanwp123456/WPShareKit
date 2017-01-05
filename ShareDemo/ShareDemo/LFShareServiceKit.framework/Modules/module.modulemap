@@ -1,0 +1,6 @@
+framework module LFShareServiceKit {
+  umbrella header "LFShareServiceKit.h"
+
+  export *
+  module * { export * }
+}

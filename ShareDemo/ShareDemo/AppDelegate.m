@@ -22,6 +22,9 @@
 //   // [[UMSocialManager defaultManager] setUmSocialAppkey:@"5704e7cf67e58e7e4b0021e1"];
 //    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"264851692"/*设置QQ平台的appID*/  appSecret:@"3d47493fd9734ea8c138ef9f61cb77af" redirectURL:@"http://mobile.umeng.com/social"];
 
+    
+    
+    
     [[LFShareService sharedService] setCurrentProvider:[LFShareProviderUM providerWithRegisteredItems:@[
                                                                  [LFShareUmengItem itemWithAppKey:@"wxdd9743fced943fb2" appSecret:nil redirectURL:@"http://mobile.umeng.com/social" platform:LFSharePlatformWeChat],
                                                                                                                   [LFShareUmengItem itemWithAppKey:@"100525909" appSecret:nil redirectURL:@"http://mobile.umeng.com/social" platform:LFSharePlatformQQ],
